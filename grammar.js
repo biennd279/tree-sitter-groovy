@@ -62,7 +62,7 @@ module.exports = grammar({
       $.function_definition,
       $.if_statement,
       $.juxt_function_call,
-      // $.pipeline_step_with_block,
+      $.pipeline_step_with_block,
       $.return,
       $.switch_statement,
       $.try_statement,
@@ -499,10 +499,10 @@ module.exports = grammar({
       $.closure,
     ),
 
-    // pipeline_step_with_block: $ => seq(
-    //   $._prefix_expression,
-    //   $.closure,
-    // ),
+    pipeline_step_with_block: $ => seq(
+      $._prefix_expression,
+      $.closure,
+    ),
 
     return: $ => prec.right(1, seq('return', optional($._expression))), //??????
 

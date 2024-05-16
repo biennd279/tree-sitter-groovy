@@ -118,6 +118,10 @@
               },
               {
                 "type": "SYMBOL",
+                "name": "pipeline_step_with_block"
+              },
+              {
+                "type": "SYMBOL",
                 "name": "return"
               },
               {
@@ -3118,6 +3122,19 @@
         {
           "type": "STRING",
           "value": "pipeline"
+        },
+        {
+          "type": "SYMBOL",
+          "name": "closure"
+        }
+      ]
+    },
+    "pipeline_step_with_block": {
+      "type": "SEQ",
+      "members": [
+        {
+          "type": "SYMBOL",
+          "name": "_prefix_expression"
         },
         {
           "type": "SYMBOL",

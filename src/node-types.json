@@ -615,6 +615,10 @@
           "named": true
         },
         {
+          "type": "pipeline_step_with_block",
+          "named": true
+        },
+        {
           "type": "return",
           "named": true
         },
@@ -835,6 +839,10 @@
         },
         {
           "type": "parameter_list",
+          "named": true
+        },
+        {
+          "type": "pipeline_step_with_block",
           "named": true
         },
         {
@@ -1108,6 +1116,10 @@
             "named": true
           },
           {
+            "type": "pipeline_step_with_block",
+            "named": true
+          },
+          {
             "type": "return",
             "named": true
           },
@@ -1321,6 +1333,10 @@
             "named": true
           },
           {
+            "type": "pipeline_step_with_block",
+            "named": true
+          },
+          {
             "type": "return",
             "named": true
           },
@@ -1510,6 +1526,10 @@
           },
           {
             "type": "juxt_function_call",
+            "named": true
+          },
+          {
+            "type": "pipeline_step_with_block",
             "named": true
           },
           {
@@ -1706,6 +1726,10 @@
           },
           {
             "type": "juxt_function_call",
+            "named": true
+          },
+          {
+            "type": "pipeline_step_with_block",
             "named": true
           },
           {
@@ -2287,6 +2311,10 @@
             "named": true
           },
           {
+            "type": "pipeline_step_with_block",
+            "named": true
+          },
+          {
             "type": "return",
             "named": true
           },
@@ -2460,6 +2488,10 @@
           },
           {
             "type": "juxt_function_call",
+            "named": true
+          },
+          {
+            "type": "pipeline_step_with_block",
             "named": true
           },
           {
@@ -3142,6 +3174,41 @@
     }
   },
   {
+    "type": "pipeline_step_with_block",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "closure",
+          "named": true
+        },
+        {
+          "type": "dotted_identifier",
+          "named": true
+        },
+        {
+          "type": "function_call",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "index",
+          "named": true
+        },
+        {
+          "type": "string",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
     "type": "return",
     "named": true,
     "fields": {},
@@ -3299,6 +3366,10 @@
         },
         {
           "type": "pipeline",
+          "named": true
+        },
+        {
+          "type": "pipeline_step_with_block",
           "named": true
         },
         {
@@ -3797,6 +3868,10 @@
             "named": true
           },
           {
+            "type": "pipeline_step_with_block",
+            "named": true
+          },
+          {
             "type": "return",
             "named": true
           },
@@ -4122,6 +4197,10 @@
           },
           {
             "type": "juxt_function_call",
+            "named": true
+          },
+          {
+            "type": "pipeline_step_with_block",
             "named": true
           },
           {
