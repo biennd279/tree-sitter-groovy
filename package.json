@@ -8,7 +8,8 @@
     {
       "scope": "source.groovy",
       "file-types": [
-        "groovy"
+        "groovy",
+        "Jenkinsfile"
       ]
     }
   ],
